@@ -34,7 +34,7 @@ class Configuration implements ConfigurationInterface
      *
      * @SuppressWarnings("PHPMD.StaticAccess")
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder('circle_rest_client');
         $rootNode = $treeBuilder->getRootNode();
